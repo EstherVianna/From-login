@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400px;
+}
+
+body{
+    background-image: linear-gradient(180deg, rgba(12, 25, 102, 0.61),rgb(214, 213, 213));
+    background-repeat: no-repeat;
+}
+
+.container{
+    border: 2px solid rgba(31, 30, 30, 0.219);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 70px;
+    box-shadow: 4px 4px 15px rgb(231, 146, 231);
+
+}
+.container h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(231, 146, 231);
+}
+
+.tabela{
+    flex:auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px rgb(231, 146, 231);
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(245, 202, 245);
+    background-color: rgba(253, 253, 251, 0.541);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top:5px;
+    outline: 0.5px outset rgba(218, 216, 216, 0.918);
+}
+
+input[type=email]{
+    background-image: url('email.png');
+    background-position: 5px 7.5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=email]:hover{
+    cursor:text;
+}
+    
+.email{
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+input[type=password]{
+    background-image: url('lock.png');
+    background-position: 5px 7.5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=password]:hover{
+    cursor: text;
+}
+
+.senha{
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+input[type=submit]{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao-entrar{
+    padding: 10px;
+    text-align: center;    
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icones img{
+    flex: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
