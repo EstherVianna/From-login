@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
     font-weight: 400px;
+    text-decoration: none;
 }
 
 body{
@@ -25,7 +26,6 @@ body{
     margin-top: 65px;
     margin-bottom: 70px;
     box-shadow: 4px 4px 15px rgb(231, 146, 231);
-
 }
 .container h1{
     font-size: 50px;
@@ -37,10 +37,7 @@ body{
 .tabela{
     flex:auto;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 5% auto;
     padding: 15px;
     color: white;
     text-shadow: 1px 1px rgb(231, 146, 231);
@@ -57,7 +54,7 @@ input{
 }
 
 input[type=email]{
-    background-image: url('email.png');
+    background-image: url('img/png/email.png');
     background-position: 5px 7.5px;
     background-repeat: no-repeat;
     padding-left: 40px;
@@ -73,7 +70,7 @@ input[type=email]:hover{
 }
 
 input[type=password]{
-    background-image: url('lock.png');
+    background-image: url('img/png/lock.png');
     background-position: 5px 7.5px;
     background-repeat: no-repeat;
     padding-left: 40px;
@@ -88,15 +85,26 @@ input[type=password]:hover{
     letter-spacing: 2px;
 }
 
+#recuperacao-senha{
+    margin-left: 5%;
+    font-size: 12px;
+    flex: auto;
+}
+
 input[type=submit]{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     cursor: pointer;
+    text-align: center;
 }
 
 .botao-entrar{
-    padding: 10px;
     text-align: center;    
+}
+
+#cadastre-se{
+    font-size: 14px;
+    padding: 5px;
 }
 
 .icones{
@@ -104,12 +112,11 @@ input[type=submit]{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .icones img{
     flex: auto;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-left: 5%;
     padding: 10px;
 }

@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=estilo.css>
+    <link rel="stylesheet" href=css/estilo.css>
     <title>Formulário</title>
 </head>
 <body>
     <div class="container">
         <h1>Login</h1>
         <div class="tabela">
-            <div class="email"> Email
-            <form action="">
+            <form action=""class="email">
+                <label for="email">Email</label> <br>
                 <input type="email" name="email" placeholder="contato@email.com">
-                
+            </form>           
+            <form action=""class="senha">
+                <label for="password">Senha</label> <br>
+                <input type="password" name="senha" placeholder="Digite sua senha">
             </form>
+            <a id="recuperacao-senha" href="#">Esqueci minha senha</a>        
+            <form action="" class="botao-entrar"><br>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+        <div class="icones">
+            <a href="#">
+                <img src="img/linkedin.png" >
+            </a>
+            <a href="#">
+                <img src="img/facebook.png">
+            </a>
+            <a href="#">
+                <img src="img/gmail.png" alt="">
+            </a>
             </div>
-            <div class="senha"> Senha
-                <form action="">
-                    <input type="password" name="senha" placeholder="Digite sua senha">
-                </form>
-            </div>
-            <div class="botao-entrar">
-                <form action="">
-                    <input type="submit" value="Entrar">
-                </form>
-            </div>
-            <div class="icones">
-                <a href="#">
-                    <img src="linkedin.png" >
-                </a>
-                <a href="#">
-                    <img src="facebook.png">
-                </a>
-                <a href="#">
-                    <img src="gmail.png" alt="">
-                </a>
-            </div>
+            <a  id="cadastre-se" href="#">Não tem conta? Cadastre-se</a>
         </div>
     </div>
-    
 
+    
 </body>
 </html>
